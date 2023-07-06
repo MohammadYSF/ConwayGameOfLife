@@ -12,7 +12,7 @@ function setup() {
   createCanvas(window.innerWidth, 600);
 
   inp = createInput();
-  inp.position(60, 250);
+  inp.position(60, 300);
   inp.input(myInputEvent);
   inp.attribute("placeholder", "type the 8 bit binary number");
   inp.value("10100101");
