@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.rtl.min.css">
+
+    <title>ConwaysGameOfLife</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="">
+                <a href="index.html" id="tohomepage-link">Back to Home Page</a>
+            </div>
+            <div class="text-center-custom" style="position: relative;">
+                <h1 class="mt-5">Conway's Game Of Life</h1>
+                        <p>enter the rule set binary number (should be of length 8 ) and see what happens :)</p>
+                        <p>min : 00000000 , max : 11111111</p>
+                        <p class="text-secondary">in this example , every cell has excatly 8 neighbors (even edges because it is coded in a way that the grid is wrapped around)</p>
+                        <p id="message"></p>
+                        <button id="btnAnotherRandom" class="btn btn-outline-success">click to get another random initial configuration</button>
+                        <button id="btnPlay" class="btn btn-success">play</button>
+                        <button  id="btnStop" class="d-none btn btn-danger">Stop</button>
+                        
+                    
+                    </div>
+
+                
+            </div>
+            <br />
+        </div>
+    </div>
+
+
+
+    <script src="../p5.min.js"></script>
+    <script src="ConwaysGameOfLife.js"></script>
+</body>
+
+</html>
