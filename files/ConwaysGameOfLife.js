@@ -36,7 +36,7 @@ document.getElementById('btnStop').addEventListener('click' , () => {
 function setup() {
 
   // Set simulation framerate to 10 to avoid flickering
-  frameRate(10);
+  frameRate(5);
   createCanvas(720, 400);
   w = 20;
   // Calculate columns and rows
